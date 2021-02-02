@@ -8,6 +8,7 @@ val sparkVersion = "3.0.0"
 val sparkDependancy = Seq(
   "org.apache.spark" %% "spark-core" % sparkVersion,
   "org.apache.spark" %% "spark-sql" % sparkVersion,
+  "org.apache.spark" %% "spark-sql-kafka-0-10" % sparkVersion
 )
 
 libraryDependencies ++= sparkDependancy
